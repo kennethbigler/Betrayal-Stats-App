@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54BA08123EDCAF200DFC341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BA08023EDCAF200DFC341 /* AppDelegate.swift */; };
+		F54BA08323EDCAF200DFC341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BA08223EDCAF200DFC341 /* SceneDelegate.swift */; };
+		F54BA08523EDCAF200DFC341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BA08423EDCAF200DFC341 /* ViewController.swift */; };
+		F54BA08823EDCAF200DFC341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54BA08623EDCAF200DFC341 /* Main.storyboard */; };
+		F54BA08A23EDCAF400DFC341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54BA08923EDCAF400DFC341 /* Assets.xcassets */; };
+		F54BA08D23EDCAF400DFC341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54BA08B23EDCAF400DFC341 /* LaunchScreen.storyboard */; };
+		F54BA09823EDCAF400DFC341 /* Betrayal_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BA09723EDCAF400DFC341 /* Betrayal_StatsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54BA09423EDCAF400DFC341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54BA07523EDCAF100DFC341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54BA07C23EDCAF100DFC341;
+			remoteInfo = "Betrayal Stats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54BA07D23EDCAF100DFC341 /* Betrayal Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Betrayal Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54BA08023EDCAF200DFC341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F54BA08223EDCAF200DFC341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F54BA08423EDCAF200DFC341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F54BA08723EDCAF200DFC341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54BA08923EDCAF400DFC341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54BA08C23EDCAF400DFC341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54BA08E23EDCAF400DFC341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54BA09323EDCAF400DFC341 /* Betrayal StatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Betrayal StatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54BA09723EDCAF400DFC341 /* Betrayal_StatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Betrayal_StatsTests.swift; sourceTree = "<group>"; };
+		F54BA09923EDCAF500DFC341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54BA07A23EDCAF100DFC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54BA09023EDCAF400DFC341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54BA07423EDCAF100DFC341 = {
+			isa = PBXGroup;
+			children = (
+				F54BA07F23EDCAF100DFC341 /* Betrayal Stats */,
+				F54BA09623EDCAF400DFC341 /* Betrayal StatsTests */,
+				F54BA07E23EDCAF100DFC341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54BA07E23EDCAF100DFC341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54BA07D23EDCAF100DFC341 /* Betrayal Stats.app */,
+				F54BA09323EDCAF400DFC341 /* Betrayal StatsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54BA07F23EDCAF100DFC341 /* Betrayal Stats */ = {
+			isa = PBXGroup;
+			children = (
+				F54BA08023EDCAF200DFC341 /* AppDelegate.swift */,
+				F54BA08223EDCAF200DFC341 /* SceneDelegate.swift */,
+				F54BA08423EDCAF200DFC341 /* ViewController.swift */,
+				F54BA08623EDCAF200DFC341 /* Main.storyboard */,
+				F54BA08923EDCAF400DFC341 /* Assets.xcassets */,
+				F54BA08B23EDCAF400DFC341 /* LaunchScreen.storyboard */,
+				F54BA08E23EDCAF400DFC341 /* Info.plist */,
+			);
+			path = "Betrayal Stats";
+			sourceTree = "<group>";
+		};
+		F54BA09623EDCAF400DFC341 /* Betrayal StatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F54BA09723EDCAF400DFC341 /* Betrayal_StatsTests.swift */,
+				F54BA09923EDCAF500DFC341 /* Info.plist */,
+			);
+			path = "Betrayal StatsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54BA07C23EDCAF100DFC341 /* Betrayal Stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54BA09C23EDCAF500DFC341 /* Build configuration list for PBXNativeTarget "Betrayal Stats" */;
+			buildPhases = (
+				F54BA07923EDCAF100DFC341 /* Sources */,
+				F54BA07A23EDCAF100DFC341 /* Frameworks */,
+				F54BA07B23EDCAF100DFC341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Betrayal Stats";
+			productName = "Betrayal Stats";
+			productReference = F54BA07D23EDCAF100DFC341 /* Betrayal Stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54BA09223EDCAF400DFC341 /* Betrayal StatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54BA09F23EDCAF500DFC341 /* Build configuration list for PBXNativeTarget "Betrayal StatsTests" */;
+			buildPhases = (
+				F54BA08F23EDCAF400DFC341 /* Sources */,
+				F54BA09023EDCAF400DFC341 /* Frameworks */,
+				F54BA09123EDCAF400DFC341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54BA09523EDCAF400DFC341 /* PBXTargetDependency */,
+			);
+			name = "Betrayal StatsTests";
+			productName = "Betrayal StatsTests";
+			productReference = F54BA09323EDCAF400DFC341 /* Betrayal StatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54BA07523EDCAF100DFC341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bigler, Kenneth";
+				TargetAttributes = {
+					F54BA07C23EDCAF100DFC341 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F54BA09223EDCAF400DFC341 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F54BA07C23EDCAF100DFC341;
+					};
+				};
+			};
+			buildConfigurationList = F54BA07823EDCAF100DFC341 /* Build configuration list for PBXProject "Betrayal Stats" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54BA07423EDCAF100DFC341;
+			productRefGroup = F54BA07E23EDCAF100DFC341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54BA07C23EDCAF100DFC341 /* Betrayal Stats */,
+				F54BA09223EDCAF400DFC341 /* Betrayal StatsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54BA07B23EDCAF100DFC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54BA08D23EDCAF400DFC341 /* LaunchScreen.storyboard in Resources */,
+				F54BA08A23EDCAF400DFC341 /* Assets.xcassets in Resources */,
+				F54BA08823EDCAF200DFC341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54BA09123EDCAF400DFC341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54BA07923EDCAF100DFC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54BA08523EDCAF200DFC341 /* ViewController.swift in Sources */,
+				F54BA08123EDCAF200DFC341 /* AppDelegate.swift in Sources */,
+				F54BA08323EDCAF200DFC341 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54BA08F23EDCAF400DFC341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54BA09823EDCAF400DFC341 /* Betrayal_StatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54BA09523EDCAF400DFC341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54BA07C23EDCAF100DFC341 /* Betrayal Stats */;
+			targetProxy = F54BA09423EDCAF400DFC341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54BA08623EDCAF200DFC341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54BA08723EDCAF200DFC341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54BA08B23EDCAF400DFC341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54BA08C23EDCAF400DFC341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54BA09A23EDCAF500DFC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F54BA09B23EDCAF500DFC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54BA09D23EDCAF500DFC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Betrayal Stats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennethbigler.Betrayal-Stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54BA09E23EDCAF500DFC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Betrayal Stats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennethbigler.Betrayal-Stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F54BA0A023EDCAF500DFC341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Betrayal StatsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennethbigler.Betrayal-StatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betrayal Stats.app/Betrayal Stats";
+			};
+			name = Debug;
+		};
+		F54BA0A123EDCAF500DFC341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Betrayal StatsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennethbigler.Betrayal-StatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betrayal Stats.app/Betrayal Stats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54BA07823EDCAF100DFC341 /* Build configuration list for PBXProject "Betrayal Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54BA09A23EDCAF500DFC341 /* Debug */,
+				F54BA09B23EDCAF500DFC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54BA09C23EDCAF500DFC341 /* Build configuration list for PBXNativeTarget "Betrayal Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54BA09D23EDCAF500DFC341 /* Debug */,
+				F54BA09E23EDCAF500DFC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54BA09F23EDCAF500DFC341 /* Build configuration list for PBXNativeTarget "Betrayal StatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54BA0A023EDCAF500DFC341 /* Debug */,
+				F54BA0A123EDCAF500DFC341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54BA07523EDCAF100DFC341 /* Project object */;
+}
