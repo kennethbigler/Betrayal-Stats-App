@@ -387,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3U67Q9Y5C;
 				INFOPLIST_FILE = "Betrayal Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -404,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3U67Q9Y5C;
 				INFOPLIST_FILE = "Betrayal Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
